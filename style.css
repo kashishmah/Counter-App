@@ -1,0 +1,52 @@
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #aabab0 0%, #b9d0db 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Card */
+.card-box{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+#number{
+    font-size: 60px;
+    margin: 20px;
+}
+
+/* Buttons */
+button{
+    margin: 10px !important;
+    border-radius: 25px !important;
+    font-weight: bold !important;
+}
+
+/* Animation */
+.animate{
+    animation: pop 0.2s ease-in-out;
+}
+
+@keyframes pop{
+    0%{transform: scale(1);}
+    50%{transform: scale(1.2);}
+    100%{transform: scale(1);}
+}
+
+.increase{ color: green; }
+.decrease{ color: red; }
+
+/* Dark Mode */
+.dark-mode{
+    background: #1e1e1e;
+}
+
+.dark-mode .card-box{
+    background: #2c2c2c;
+    color: white;
+}
