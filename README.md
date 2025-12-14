@@ -21,5 +21,6 @@ A simple and interactive counter application built using HTML, CSS, and JavaScri
 - Bootstrap
 
 ## Live Demo
-[(Enable GitHub Pages to add link here)](https://kashishmah.github.io/Counter-App/)
+(https://kashishmah.github.io/Counter-App/)
+
 
